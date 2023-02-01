@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+</head>
+<body>
+    <h1>Experiment 2</h1>
+    <h2>To help you decide what to eat today</h2>
+
+   
+
+    <script>
+        var greeting = function(){
+            var name = prompt("Please tell me your name", "");
+            console.log(`Hello ${name}, are you starving now?`)
+        }
+
+        greeting();
+
+        var kindofFood = ["Chinese food", "Japanese food", "pasta", "pizza", "brunch", "burger", "pho"];
+        
+        function randomInt(min, max ){
+            var num0fValues = max - min +1;
+            var randomNum = Math.random();
+            var randomVal = randomNum * num0fValues;
+            var roundedRandomVal = Math.floor(randomVal);
+            var finalNum = min + roundedRandomVal;
+
+            return finalNum;
+        }
+
+        console.log(`What about having some ${kindofFood[randomInt(0,6)]} today? `);
+    </script>
+
+    <p>
+        Hello 
+        <script type="text/javascript">
+            document.write(name)
+        </script>
+        are you starving now?
+    </p>
+</body>
+</html>
