@@ -4,7 +4,8 @@ body{
 h1{
     font-family: 'Handlee', cursive;
     font-size: 90pt;
-    align-items: center;    
+    align-items: center;  
+    justify-content: center;  
     color: #85182a;
 }
 
@@ -19,8 +20,10 @@ h2{
 p{
     font-family: 'Sassy Frass', cursive;
     color: #da1e37;
+    font-size: 50pt;
 }
 
-footer{
+footer p{
     font-family: 'Handlee', cursive;
+    font-size:30pt;
 }
