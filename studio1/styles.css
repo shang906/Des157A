@@ -1,7 +1,11 @@
+body{
+    background-color: #ffba08;
+}
 h1{
     font-family: 'Handlee', cursive;
     font-size: 90pt;
     align-items: center;    
+    color: #85182a;
 }
 
 h2{
@@ -9,10 +13,12 @@ h2{
     font-size: 70pt;
     align-items: center;
     justify-content: center;
+    color: #a11d33;
 }
 
 p{
     font-family: 'Sassy Frass', cursive;
+    color: #da1e37;
 }
 
 footer{
