@@ -10,7 +10,7 @@ h1{
 }
 
 h2{
-    font-family: 'Sassy Frass', cursive;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 70pt;
     align-items: center;
     justify-content: center;
@@ -18,9 +18,9 @@ h2{
 }
 
 p{
-    font-family: 'Sassy Frass', cursive;
+    font-family: 'Shadows Into Light', cursive;
     color: #da1e37;
-    font-size: 50pt;
+    font-size: 30pt;
 }
 
 footer p{
