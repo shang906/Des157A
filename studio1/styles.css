@@ -23,6 +23,10 @@ p{
     font-size: 30pt;
 }
 
+label{
+    font-family: 'Shadows Into Light', cursive;
+}
+
 footer p{
     font-family: 'Handlee', cursive;
     font-size:30pt;
