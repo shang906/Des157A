@@ -1,5 +1,5 @@
 body{
-    background-color: #ffba08;
+    background-image: url(images/txrpic-10287748.jpg);
 }
 h1{
     display: flex;
@@ -8,6 +8,7 @@ h1{
     align-items: center;  
     justify-content: center;  
     color: #BD0505;
+    margin-top: 74pt;
 }
 
 h2{
@@ -19,33 +20,66 @@ h2{
     color: #B30505;
 }
 
+section {
+    width: 1050px;
+    display: flex;
+    /* align-items: center; */
+}
+
 form{
-    display: block;
-    font-family: 'Handlee', cursive;
-    margin: 20px;
-    border-radius: 20px;
-    /* background-color: #F9F110; */
-    padding: 20px;
+    position: relative;
+    width: 1050px;
+    
 }
 
 form label{
+    position: relative;
+    justify-content: left;
     display: flex;
+    margin-left: 55%;
     font-family: 'Handlee', cursive;
-    display: block;
     font-size: 17pt;
 }
+
+form input{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 55%;
+    font-family: 'Handlee', cursive;
+    font-size: 17pt;
+}
+
+
 p{
+    position: relative;
+    margin-left: 40%;
     font-family: 'Shadows Into Light', cursive;
     color: #da1e37;
-    font-size: 30pt;
+    font-size: 20pt;
+    align-content: center;
+    justify-content: center;
 }
 
 
 
 input[type="submit"]:hover, #lastbutton:hover {
     color: white;
-    background-color: #1B0E02;
+    background-color: #E12C2C;
     cursor:pointer;
+}
+
+form input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    display: grid;
+    margin-top: 20pt;
+    font-size: 18pt;
 }
 
 .hidden {
@@ -56,8 +90,17 @@ input[type="submit"]:hover, #lastbutton:hover {
     display: block;
 }
 
+.hidden{
+    background-color: antiquewhite;
+}
+
 label{
     font-family: 'Shadows Into Light', cursive;
+}
+
+.rewrite{
+    margin-top: 20pt;
+    font-size: 18pt;
 }
 
 footer p{
