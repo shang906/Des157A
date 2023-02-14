@@ -2,30 +2,34 @@ body{
     background-color: #ffba08;
 }
 h1{
+    display: flex;
     font-family: 'Handlee', cursive;
     font-size: 50pt;
     align-items: center;  
     justify-content: center;  
-    color: #85182a;
+    color: #BD0505;
 }
 
 h2{
+    display: flex;
     font-family: 'Shadows Into Light', cursive;
     font-size: 30pt;
     align-items: center;
     justify-content: center;
-    color: #a11d33;
+    color: #B30505;
 }
 
 form{
+    display: block;
     font-family: 'Handlee', cursive;
     margin: 20px;
     border-radius: 20px;
-    background-color: rgb(245, 241, 220);
+    /* background-color: #F9F110; */
     padding: 20px;
 }
 
 form label{
+    display: flex;
     font-family: 'Handlee', cursive;
     display: block;
     font-size: 17pt;
@@ -34,6 +38,22 @@ p{
     font-family: 'Shadows Into Light', cursive;
     color: #da1e37;
     font-size: 30pt;
+}
+
+
+
+input[type="submit"]:hover, #lastbutton:hover {
+    color: white;
+    background-color: #1B0E02;
+    cursor:pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
 }
 
 label{
