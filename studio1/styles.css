@@ -9,6 +9,7 @@ h1{
     justify-content: center;  
     color: #BD0505;
     margin-top: 74pt;
+    margin-left: 10pt;
 }
 
 h2{
@@ -40,6 +41,7 @@ form label{
     margin-left: 55%;
     font-family: 'Handlee', cursive;
     font-size: 17pt;
+    color: #D5440B;
 }
 
 form input{
@@ -48,9 +50,15 @@ form input{
     justify-content: center;
     display: flex;
     margin-left: 55%;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
     font-size: 17pt;
+    border: 1.5pt dashed #DE7F11;
+    border-radius: 20pt;
 }
+
+input[type=text]:focus {
+    border: 3px solid #A40404;
+  }
 
 
 
@@ -83,6 +91,11 @@ form input{
     display: grid;
     margin-top: 20pt;
     font-size: 18pt;
+    border-style: none;
+    background-color: #FFF;
+    color: #FFD700;
+    left: 2%;
+
 }
 
 .hidden {
@@ -102,8 +115,8 @@ form input{
 
 #newyear{
     position: absolute;
-    top: 3%;
-    right: 135px;
+    top: 38.5%;
+    right: 138px;
 }
 
 label{
@@ -122,8 +135,10 @@ label{
     width: fit-content;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-decoration: none;
+    border: 1.5pt solid #FFF;
+    border-radius: 10pt;
 }
 
 
