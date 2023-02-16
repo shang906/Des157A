@@ -90,7 +90,7 @@ h2{
 
 
 main{
-    display: flex;
+    display: grid;
     align-content: center;
     justify-content: center;
     gap: 50pt;
