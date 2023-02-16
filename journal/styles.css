@@ -91,26 +91,36 @@ h2{
 
 main{
     display: grid;
-    align-content: center;
-    justify-content: center;
-    gap: 50pt;
+    grid-template-columns: auto auto auto;
+    /* align-content: center;
+    justify-content: space-evenly;
+    gap: 50pt; */
     margin-top: 20pt;
     margin-left: 20pt;
 }
 
-.post1{
-    width: 33%;
+.item1 {
+  grid-column-start: post4;
+  grid-column-end: post2;
 }
+
+/* .grid1{
+    width: 33%;
+} */
 
 a{
     text-decoration-style: none;
 }
 
-.post2{
+/* .grid2{
     width: 33%;
 }
 
-.post3{
+.grid3{
+    width: 33%;
+} */
+
+.grid4{
     width: 33%;
 }
 
