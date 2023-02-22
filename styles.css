@@ -130,6 +130,10 @@ body {
   overscroll-behavior: none;
 }
 
+footer{
+  color: #fff;
+}
+
 .container {
   position: fixed;
   width: 240px;
