@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(to bottom right, #ede0d4 0%, #ddb892 100%) ;
+    min-height: 100vh;
 }
 h1{
     font-family: 'Fredericka the Great', cursive;
@@ -22,11 +23,40 @@ h2{
 
 p{
     font-family: 'Gloria Hallelujah', cursive;
-    margin-left: 10pt;
     display: flex;
     color: #B08968;
     font-size: 15pt;
+    margin-top: 300pt;
     margin-left: 15pt;
     margin-right: 15pt;
 }
 
+/* routing_images */
+body {
+    margin: 0;
+    padding: 0;
+}
+#slider {
+    display: flex;
+    position: absolute;
+    top:800;
+    left: 0;
+    height: 300px;
+    transition: all 60s linear;
+}
+
+#slider div img {
+    height: 100%;
+    display: block;
+    margin-right: 20px;
+}
+
+.a, .b {
+   display: flex;
+   height: 100%;
+}
+
+.a, .b {
+   display: flex;
+   height: 100%;
+}
