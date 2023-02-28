@@ -1,49 +1,27 @@
 window.addEventListener('load', function () {
-    'use strict'
+    'use strict';
+    const sliderContent = document.querySelector('.a');
+    const sliderWidth = sliderContent.offsetWidth;
+    const cloned = sliderContent.cloneNode(true);
+    cloned.className = "b";
+    document.querySelector('.slider').appendChild(cloned);
+    let root = document.querySelector(':root');
+    const endLeftPos = `-${sliderWidth}px`;    
+    root.style.setProperty('--sliderwidth', endLeftPos);
+    console.log(getComputedStyle(root).getPropertyValue('--sliderwidth'));
+    document.querySelector('.slider').classList.add("animate");
 
-    let sliderContent;
-    let sliderWidth;
-    let fullSlider = document.querySelector('body');
-    const clonedSlider = fullSlider.innerHTML;
+    document.querySelector('.slider').addEventListener('mouseover', function(){
+        document.querySelector('.animate').style.animationPlayState = 'paused';
+    });
 
-    function animateSlider() {
-        sliderContent = document.querySelector('.a');
-        sliderWidth = sliderContent.offsetWidth;
-        const cloned = sliderContent.cloneNode(true);
-        cloned.className = "b";
-        document.querySelector('#slider').appendChild(cloned);
-        document.querySelector('#slider').style.left = `-${sliderWidth}px`;
-        repeatAnimation();
-    }
+    document.querySelector('.slider').addEventListener('mouseout', function(){
+        document.querySelector('.animate').style.animationPlayState = 'running';
+    });
 
-    animateSlider();
-    function repeatAnimation() {
-        fullSlider.addEventListener("transitionend", function () {
-            console.log('going around again!');
-            document.querySelector('body').innerHTML = clonedSlider;
-            fullSlider = document.querySelector('#slider');
-            animateSlider();
-        });
-    }
-
-    // form.addEventListener("submit", function (event) {
-    //     event.preventDefault();
-
-
-    //     document.querySelector("#text1").innerHTML = text1;
-    //     document.querySelector("#slider").style.display = "none";
-    //     document.querySelector("#journal").className = "showing";
-    // });
-
-    // var imgTag = document.getElementById(".first");
-    // imgTag.addEventListener("click",function(){
-    //     event.preventDefault();
-
-
-    //     document.querySelector("#text1").innerHTML = text1;
-    //     document.querySelector("#slider").style.display = "none";
-    //     document.querySelector("#journal").className = "showing";
-    // });
-
-    
+    document.addEventListener('click', function(event){
+        if(event.target.className == 'photo'){
+            console.log(event.target.src);
+        }
+    } );
 });

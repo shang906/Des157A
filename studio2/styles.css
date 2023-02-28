@@ -47,35 +47,65 @@ p{
     margin-right: 15pt;
 }
 
-/* routing_images */
+
+
+:root {
+    --sliderwidth: ;
+}
+
+@keyframes moveSlider {
+    from { left: 0; }
+    to { left: var(--sliderwidth) }
+}
+.animate {
+    animation-name: moveSlider;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
 body {
     margin: 0;
     padding: 0;
 }
-
-.photos{
-    height: 300px;
-    width: 100%; 
+/* I added this for the section */
+#one {
+    width: 100%;
     overflow-x: hidden;
 }
+
 #slider {
     display: flex;
     position: absolute;
-    top: 0.0005;
+    top:0;
     left: 0;
-    height: 300px;
+    height: 200px;
     transition: all 60s linear;
 }
 
-#slider div img {
-    height: 100%;
-    display: block;
-    margin-right: 20px;
+/* to make it go right, just change the left property to right */
+.slider {
+    display: flex;
+    position: absolute;
+    top:500;
+    left: 0; /* this is the only change! */
+    height: 200px;
+    margin-top: 40px;
+    /* transition: all 60s linear; */
 }
 
-.a, .b {
-   display: flex;
-   height: 100%;
+.sliderpaused {
+    display: flex;
+    position: absolute;
+    top:0;
+    /*right: 0;  this is the only change! */
+    height: 200px;
+}
+
+.slider div img {
+    height: 200pt;
+    display: block;
+    margin-right: 20px;
 }
 
 .a, .b {
