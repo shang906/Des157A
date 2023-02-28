@@ -35,15 +35,15 @@ window.addEventListener('load', function () {
     //     document.querySelector("#journal").className = "showing";
     // });
 
-    var imgTag = document.getElementById(".first");
-    imgTag.addEventListener("click",function(){
-        event.preventDefault();
+    // var imgTag = document.getElementById(".first");
+    // imgTag.addEventListener("click",function(){
+    //     event.preventDefault();
 
 
-        document.querySelector("#text1").innerHTML = text1;
-        document.querySelector("#slider").style.display = "none";
-        document.querySelector("#journal").className = "showing";
-    });
+    //     document.querySelector("#text1").innerHTML = text1;
+    //     document.querySelector("#slider").style.display = "none";
+    //     document.querySelector("#journal").className = "showing";
+    // });
 
     
 });

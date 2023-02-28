@@ -52,6 +52,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.photos{
+    height: 300px;
+    width: 100%; 
+    overflow-x: hidden;
+}
 #slider {
     display: flex;
     position: absolute;
