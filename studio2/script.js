@@ -25,4 +25,25 @@ window.addEventListener('load', function () {
             animateSlider();
         });
     }
+
+    // form.addEventListener("submit", function (event) {
+    //     event.preventDefault();
+
+
+    //     document.querySelector("#text1").innerHTML = text1;
+    //     document.querySelector("#slider").style.display = "none";
+    //     document.querySelector("#journal").className = "showing";
+    // });
+
+    var imgTag = document.getElementById(".first");
+    imgTag.addEventListener("click",function(){
+        event.preventDefault();
+
+
+        document.querySelector("#text1").innerHTML = text1;
+        document.querySelector("#slider").style.display = "none";
+        document.querySelector("#journal").className = "showing";
+    });
+
+    
 });

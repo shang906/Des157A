@@ -21,6 +21,22 @@ h2{
     color: #A57455;
 }
 
+date{
+    color:#AD8164;
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    margin-right: 30pt;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 700pt;
+}
+
 p{
     font-family: 'Gloria Hallelujah', cursive;
     display: flex;
@@ -39,7 +55,7 @@ body {
 #slider {
     display: flex;
     position: absolute;
-    top:800;
+    top: 0.0005;
     left: 0;
     height: 300px;
     transition: all 60s linear;
