@@ -3,6 +3,9 @@ body {
     color: #333;
     padding: 50px;
     line-height: 1.5em;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 button { 
@@ -13,6 +16,26 @@ div {
     padding: 20px;
 }
 
+#mario{
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#luigi{
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 1100px;
+}
+
+#toad{
+    display: flex;
+    position: absolute;
+    margin-left: 615px;
+}
+/* 
 #gamecontrol, #score {
     background-color: aliceblue;
 }
@@ -22,4 +45,4 @@ div {
 }
 #actions {
     background-color: silver;
-}
+} */

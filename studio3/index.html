@@ -10,14 +10,29 @@
     <title>Game On!</title>
 </head>
 <body>
+    
     <h1>Save Toad</h1>
-    <p>There are two players. The player whose turn it is rolls the dice. The total of the roll is added to the current player's score, unless either die comes up as a "one". If this happens, this player's turn is over, and it is the other player’s turn. After each roll, the current player can either roll again, (assuming a "one" was not rolled) or if the current player feels that luck is running thin, they can pass to the other player. The first player to get 30 points or higher wins.</p> 
+    <p>There is Mario and Luigi. They are the people who turn it is rolls the dice to save Toad. The total of the roll is added to the current player's distance from Toad, unless either die comes up as a "one". If this happens, this player's turn is over, and it is the other player’s turn. After each roll, the current player can either roll again, (assuming a "one" was not rolled) or if the current player feels that luck is running thin, they can pass to the other player. The first player to get 30 steps or higher wins.</p> 
     <p>Oh, and if you roll two "ones" (snake eyes), your current score gets zeroed out. So don’t do that.</p>
 
     <div id="gamecontrol">
         <h2>Start a Game</h2>
         <button id="startgame">Randomly Pick, and Start</button>
     </div>
+
+    <div id="mario">
+        <img src="images/mario.jpg" alt="mario" width="200">
+    </div>
+
+    <div id="luigi">
+        <img src="images/luigi.jpg" alt="luigi" width="200">
+    </div>
+
+    <div id="toad">
+        <img src="images/toad.png" alt="toad" width="100">
+    </div>
+    
+    
 
     <div id="game"></div>
     <div id="actions"></div>
