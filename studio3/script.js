@@ -15,8 +15,8 @@
 	const actionArea = document.getElementById('actions');
 
 	const gameData = {
-		dice: ['images/1die.jpg', 'images/2die.jpg', 'images/3die.jpg', 
-			   'images/4die.jpg', 'images/5die.jpg', 'images/6die.jpg'],
+		dice: ['images/1die.png', 'images/2die.png', 'images/3die.png', 
+			   'images/4die.png', 'images/5die.png', 'images/6die.png'],
 		players: ['player 1', 'player 2'],
 		score: [0, 0],
 		roll1: 0,

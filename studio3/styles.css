@@ -19,21 +19,22 @@ div {
 #mario{
     display: flex;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 70px;
+    top: 520px;
+    left: 100px;
 }
 
 #luigi{
     display: flex;
     position: absolute;
-    margin-top: 50px;
+    top: 500px;
     margin-left: 1100px;
 }
 
 #toad{
     display: flex;
     position: absolute;
-    margin-left: 615px;
+    top: 385px;
+    left: 670px;
 }
 /* 
 #gamecontrol, #score {
