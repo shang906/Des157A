@@ -1,0 +1,114 @@
+body{
+    background: linear-gradient(to bottom right, #ede0d4 0%, #ddb892 100%) ;
+    min-height: 100vh;
+}
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 70pt;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #7F5539;
+}
+
+h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30pt;
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    margin-right: 10pt;
+    color: #A57455;
+}
+
+date{
+    color:#AD8164;
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    margin-right: 30pt;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 700pt;
+}
+
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+    display: flex;
+    color: #B08968;
+    font-size: 15pt;
+    margin-top: 300pt;
+    margin-left: 15pt;
+    margin-right: 15pt;
+}
+
+
+
+:root {
+    --sliderwidth: ;
+}
+
+@keyframes moveSlider {
+    from { left: 0; }
+    to { left: var(--sliderwidth) }
+}
+.animate {
+    animation-name: moveSlider;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/* I added this for the section */
+#one {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#slider {
+    display: flex;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 200px;
+    transition: all 60s linear;
+}
+
+/* to make it go right, just change the left property to right */
+.slider {
+    display: flex;
+    position: absolute;
+    top:500;
+    left: 0; /* this is the only change! */
+    height: 200px;
+    margin-top: 40px;
+    /* transition: all 60s linear; */
+}
+
+.sliderpaused {
+    display: flex;
+    position: absolute;
+    top:0;
+    /*right: 0;  this is the only change! */
+    height: 200px;
+}
+
+.slider div img {
+    height: 200pt;
+    display: block;
+    margin-right: 20px;
+}
+
+.a, .b {
+   display: flex;
+   height: 100%;
+}
