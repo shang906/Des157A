@@ -38,13 +38,10 @@ window.addEventListener('load', function () {
             event.preventDefault();
             const thisBtn = this.id;
             console.log(thisBtn);
-            if (document.getElementById(`ol-${thisBtn}`).classList.contains('overlay-wide')) {
-                document.getElementById(`ol-${thisBtn}`).className = `overlay-wide showing`;
-            } else {
-                document.getElementById(`ol-${thisBtn}`).className = `overlay-tall showing`;
-            }
-
-
+            document.getElementById(`ol-${thisBtn}`).className = `overlay showing`;
+            // if (document.getElementById(`ol-${thisBtn}`).classList.contains('overlay')) {
+            //     document.getElementById(`ol-${thisBtn}`).className = `overlay showing`;
+            // }
         });
     }
 
