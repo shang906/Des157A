@@ -205,7 +205,7 @@ img.housefeild:hover {
     padding-left: 500px;
 }
 
-#ol-first data {
+#ol-first date {
     font-family: 'Fredericka the Great', cursive;
     font-size: 20px;
     letter-spacing: .8px;
@@ -232,6 +232,14 @@ img.housefeild:hover {
     border-bottom-left-radius: 5%;
 }
 
+#ol-first p button {
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: .8px;
+    position: absolute;
+    width: 5%;
+    margin-top: -140px;
+    margin-left: 310px;
+}
 
 /* oltwo styles */
 
@@ -249,8 +257,8 @@ img.housefeild:hover {
     box-sizing: border-box;
     border-radius: 5%;
     background-color: #fff;
-    width: 900px;
-    height: 600px;
+    width: 1100px;
+    height: 450px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -259,30 +267,51 @@ img.housefeild:hover {
 }
 
 #ol-second h2 {
-    font-family: "Helvetica";
+    font-family: 'Fredericka the Great', cursive;
     font-size: 36px;
     letter-spacing: .8px;
     position: relative;
     width: 40%;
-    padding-top: 50px;
-    padding-left: 500px;
+    margin-top: 70px;
+    /* padding-top: 50px; */
+    padding-left: 650px;
+}
+
+#ol-second date {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
+    letter-spacing: .8px;
+    position: fixed;
+    width: 40%;
+    margin-left: 40px;
 }
 
 #ol-second p {
-    font-family: "Helvetica";
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15pt;
     letter-spacing: .8px;
     position: relative;
     width: 40%;
-    padding-top: 10px;
-    padding-left: 500px;
+    margin-top: 18px;
+    padding-left: 600px;
 }
 
 #ol-second img {
-    width: 450px;
-    height: 600px;
+    width: 600px;
+    height: 450px;
     position: fixed;
+    /* margin-top: 100px; */
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
+}
+
+#ol-second p button {
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: .8px;
+    position: absolute;
+    width: 5%;
+    margin-top: -130px;
+    margin-left: 396px;
 }
 
 
@@ -302,8 +331,8 @@ img.housefeild:hover {
     box-sizing: border-box;
     border-radius: 5%;
     background-color: #fff;
-    width: 900px;
-    height: 600px;
+    width: 1150px;
+    height: 450px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -312,32 +341,50 @@ img.housefeild:hover {
 }
 
 #ol-third h2 {
-    font-family: "Helvetica";
+    font-family: 'Fredericka the Great', cursive;
     font-size: 36px;
     letter-spacing: .8px;
     position: relative;
     width: 40%;
     padding-top: 50px;
-    padding-left: 500px;
+    padding-left: 680px;
 }
 
-#ol-third p {
-    font-family: "Helvetica";
+#ol-third date {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
     letter-spacing: .8px;
     position: relative;
     width: 40%;
-    padding-top: 10px;
-    padding-left: 500px;
+    padding-top: 1px;
+    padding-left: 680px;
 }
 
-#ol-three img {
-    width: 450px;
-    height: 600px;
+#ol-third p {
+    font-family: 'Gloria Hallelujah', cursive;
+    letter-spacing: .8px;
+    position: relative;
+    width: 40%;
+    margin-top: 3px;
+    padding-left: 630px;
+}
+
+#ol-third img {
+    width: 600px;
+    height: 450px;
     position: fixed;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
 }
 
+#ol-third p button {
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: .8px;
+    position: absolute;
+    width: 5%;
+    margin-top: -168px;
+    margin-left: 420px;
+}
 
 /* olfour styles */
 
@@ -355,7 +402,7 @@ img.housefeild:hover {
     box-sizing: border-box;
     border-radius: 5%;
     background-color: #fff;
-    width: 900px;
+    width: 1100px;
     height: 450px;
     position: absolute;
     top: 50%;
@@ -365,7 +412,7 @@ img.housefeild:hover {
 }
 
 #ol-forth h2 {
-    font-family: "Helvetica";
+    font-family: 'Fredericka the Great', cursive;
     font-size: 36px;
     letter-spacing: .8px;
     position: relative;
@@ -374,12 +421,22 @@ img.housefeild:hover {
     padding-left: 650px;
 }
 
-#ol-forth p {
-    font-family: "Helvetica";
+#ol-forth date {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
     letter-spacing: .8px;
     position: relative;
     width: 40%;
-    padding-top: 10px;
+    padding-top: 1px;
+    padding-left: 650px;
+}
+
+#ol-forth p {
+    font-family: 'Gloria Hallelujah', cursive;
+    letter-spacing: .8px;
+    position: relative;
+    width: 40%;
+    margin-top: 5px;
     padding-left: 650px;
 }
 
@@ -391,6 +448,14 @@ img.housefeild:hover {
     border-bottom-left-radius: 5%;
 }
 
+#ol-forth p button {
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: .8px;
+    position: absolute;
+    width: 5%;
+    margin-top: -165px;
+    margin-left: 353px;
+}
 
 /* olfive styles */
 
@@ -409,7 +474,7 @@ img.housefeild:hover {
     border-radius: 5%;
     background-color: #fff;
     width: 900px;
-    height: 600px;
+    height: 550px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -424,7 +489,17 @@ img.housefeild:hover {
     position: relative;
     width: 40%;
     padding-top: 50px;
-    padding-left: 500px;
+    padding-left: 600px;
+}
+
+#ol-fifth date {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
+    letter-spacing: .8px;
+    position: relative;
+    width: 40%;
+    padding-top: 1px;
+    padding-left: 520px;
 }
 
 #ol-fifth p {
@@ -432,14 +507,23 @@ img.housefeild:hover {
     letter-spacing: .8px;
     position: relative;
     width: 40%;
-    margin-top: 0px;
+    margin-top: 20px;
     padding-left: 500px;
 }
 
 #ol-fifth img {
     width: 450px;
-    height: 600px;
+    height: 550px;
     position: fixed;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
+}
+
+#ol-fifth p button {
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: .8px;
+    position: absolute;
+    width: 5%;
+    margin-top: -206px;
+    margin-left: 320px;
 }
